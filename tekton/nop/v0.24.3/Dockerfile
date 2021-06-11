@@ -1,0 +1,2 @@
+FROM gcr.io/tekton-releases/github.com/tektoncd/pipeline/cmd/nop:v0.24.3@sha256:e6e5fd3e5664cae763eb461908004cc3629578084e75edcd64600edcfe8dbf2c
+MAINTAINER licheng <1076366950@qq.com>
