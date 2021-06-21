@@ -1,0 +1,2 @@
+FROM gcr.io/kaniko-project/executor:v1.5.1@sha256:c6166717f7fe0b7da44908c986137ecfeab21f31ec3992f6e128fff8a94be8a5
+MAINTAINER licheng <1076366950@qq.com>
