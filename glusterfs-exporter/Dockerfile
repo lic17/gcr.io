@@ -1,4 +1,4 @@
-FROM golang:alpine as build
+FROM registry.cn-hangzhou.aliyuncs.com/licheng/golang:alpine as build
 
 # Otherwise make runs with /bin/sh
 ENV SHELL "bash"
@@ -16,7 +16,7 @@ RUN apk add --update bash git curl make && \
     cp ./build/gluster-exporter /tmp/
 
 
-FROM alpine:3.9
+FROM registry.cn-hangzhou.aliyuncs.com/licheng/alpine:3.9
 
 COPY --from=build /tmp/gluster-exporter /
 COPY --from=build /tmp/gluster-exporter.toml /
