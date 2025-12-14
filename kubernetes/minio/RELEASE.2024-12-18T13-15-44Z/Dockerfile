@@ -1,0 +1,2 @@
+FROM minio/minio:RELEASE.2024-12-18T13-15-44Z
+MAINTAINER licheng <1076366950@qq.com>
